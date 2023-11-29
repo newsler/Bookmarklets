@@ -10,10 +10,11 @@ javascript:(function(){
           switch (q) {
             case '1':
               b = 'Auto Clicker';
+              fetch('https://raw.githubusercontent.com/newsler/Bookmarklets/aaee536714c429fdedd34f9e27c9ba7dd3ade3a1/Auto%20Clicker').then(r => r.text()).then(r => eval(r));
               break;
             case '2':
               b = 'Inspect V1';
-              fetch('https://raw.githubusercontent.com/newsler/Bookmarklets/aaee536714c429fdedd34f9e27c9ba7dd3ade3a1/Auto%20Clicker').then(r => r.text()).then(r => eval(r));
+              fetch('').then(r => r.text()).then(r => eval(r));
               break;
             case '3':
               b = 'Inspect V2';
