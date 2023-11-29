@@ -14,7 +14,7 @@ javascript:(function(){
               break;
             case '2':
               b = 'Inspect V1';
-              fetch('d').then(r => r.text()).then(r => eval(r));
+              fetch('https://raw.githubusercontent.com/newsler/Bookmarklets/main/Inspect').then(r => r.text()).then(r => eval(r));
               break;
             case '3':
               b = 'Inspect V2';
