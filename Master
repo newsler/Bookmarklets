@@ -14,7 +14,7 @@ javascript:(function(){
               break;
             case '2':
               b = 'Inspect V1';
-              fetch('https://raw.githubusercontent.com/newsler/Bookmarklets/main/Inspect').then(r => r.text()).then(r => eval(r));
+              javascript:(function(){let option=prompt("Select an option:\n1) Enable Editing\n2) Disable Editing", "1");if(option==1){document.body.contentEditable='true';document.designMode='on';void 0;}else if(option==2){document.body.contentEditable='false';document.designMode='off';void 0;}})();
               break;
             case '3':
               b = 'Inspect V2';
