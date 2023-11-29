@@ -1,0 +1,148 @@
+javascript:(function(){
+  var c = prompt('Choose a category:\n\n1: Tools\n2: Games\n3: Trolls\n4: Fun', '');
+  if (c !== null) {
+    var q = '';
+    var b = '';
+    switch (c) {
+      case '1':
+        q = prompt('Choose a bookmarklet for Tools:\n\n1: Auto Clicker\n2: Inspect V1\n3: Inspect V2\n4: Inspect V3\n5: Cloak\n6: History flooder\n7: Goguardian Whitelist Bypass\n8: Edpuzzle Skipper\n9: Blooket Cheat', '');
+        if (q !== null) {
+          switch (q) {
+            case '1':
+              b = 'Auto Clicker';
+              break;
+            case '2':
+              b = 'Inspect V1';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '3':
+              b = 'Inspect V2';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '4':
+              b = 'Inspect V3';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '5':
+              b = 'Cloak';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '6':
+              b = 'History flooder';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '7':
+              b = 'Goguardian Whitelist Bypass';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '8':
+              b = 'Edpuzzle Skipper';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '9':
+              b = 'Blooket Cheat';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+          }
+        }
+        break;
+      case '2':
+        q = prompt('Choose a game for Games:\n\n1: Asteroids\n2: Coin Clicker\n3: Dodgy Square\n4: Rock Paper Scissor\n5: Ping pong\n6: Snake', '');
+        if (q !== null) {
+          switch (q) {
+            case '1':
+              b = 'Asteroids';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '2':
+              b = 'Coin Clicker';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '3':
+              b = 'Dodgy Square';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '4':
+              b = 'Rock Paper Scissor';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '5':
+              b = 'Ping pong';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '6':
+              b = 'Snake';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+          }
+        }
+        break;
+      case '3':
+        q = prompt('Choose a bookmarklet for Trolls:\n\n1: MrBeast\n2: Uglify\n3: Sus\n4: Shrikify\n5: Hacked Screen\n6: Pain\n7: Rainbow\n8: Screen Spin', '');
+        if (q !== null) {
+          switch (q) {
+            case '1':
+              b = 'MrBeast';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '2':
+              b = 'Uglify';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '3':
+              b = 'Sus';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '4':
+              b = 'Shrikify';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '5':
+              b = 'Hacked Screen';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '6':
+              b = 'Pain';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '7':
+              b = 'Rainbow';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '8':
+              b = 'Screen Spin';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+          }
+        }
+        break;
+      case '4':
+        q = prompt('Choose a bookmarklet for Fun:\n\n1: Draw\n2: Disappearing Mouse\n3: I like frogs\n4: DVD Logo\n5: Blooket Cheats', '');
+        if (q !== null) {
+          switch (q) {
+            case '1':
+              b = 'Draw';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '2':
+              b = 'Disappearing Mouse';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '3':
+              b = 'I like frogs';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '4':
+              b = 'DVD Logo';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+            case '5':
+              b = 'Blooket Cheats';
+              fetch('URL HERE').then(r => r.text()).then(r => eval(r));
+              break;
+          }
+        }
+        break;
+    }
+  }
+})();
